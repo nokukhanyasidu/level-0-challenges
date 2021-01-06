@@ -1,0 +1,19 @@
+function convertTime(num){
+    var hours = Math.floor(num / 60);
+    var minutes = num % 60;
+    if (hours > 1 && minutes > 1){
+        return (hours + ' hours, ' + minutes + ' minutes ');
+    }
+    else if (hours <= 1 && minutes <= 1){
+        return (hours + ' hour, ' + minutes + ' minute');
+    }
+    else if (hours <= 1 && minutes > 1){
+        return (hours + ' hour, ' + minutes + ' minutes');
+    }
+    else {
+        return  (hours + ' hours, ' + minutes + ' minute');
+    }
+}
+
+console.log(convertTime(71));
+console.log(convertTime(133));
