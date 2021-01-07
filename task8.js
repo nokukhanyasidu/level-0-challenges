@@ -15,5 +15,4 @@ function convertTime(num){
     }
 }
 
-console.log(convertTime(71));
-console.log(convertTime(133));
+

@@ -6,5 +6,5 @@ function maximum(num1, num2, num3){
         max = arr[i];
     }
  }
- console.log(max);
+ return max;
 }

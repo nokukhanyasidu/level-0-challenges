@@ -4,7 +4,7 @@ function numbers(a,b){
        return true;
    }
    else {
-       false;
+      return false;
    }
  
 }
