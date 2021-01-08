@@ -1,8 +1,8 @@
 function common(s1,s2){
     let output = [];
-    for (let i of s1){
-         for( let j of s2){
-             if (j === i){
+    for (let i of s2){
+         for( let j of s1){
+             if (i === j){
                  output.push(j)
              }
          }  
